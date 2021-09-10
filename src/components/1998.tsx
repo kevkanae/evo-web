@@ -1,4 +1,8 @@
 const NinetyEight = () => {
-  return <></>;
+  return (
+    <>
+      <div className="root98">1998</div>
+    </>
+  );
 };
 export default NinetyEight;
