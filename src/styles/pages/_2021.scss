@@ -1,0 +1,63 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+.root21 {
+  height: 90vh;
+  width: 100vw;
+
+  background-image: url("../../assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+
+  @include flex(column, center, center);
+  &__card {
+    width: 91%;
+    height: 91%;
+
+    background-image: url("../../assets/bg.svg");
+    background-position: center;
+    background-size: cover;
+
+    @include glass();
+
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+    &__head {
+      height: 14%;
+      width: 100%;
+
+      padding: 0 2.1rem;
+      @include flex(row, space-between, center);
+      &__title,
+      &__menu {
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        letter-spacing: 1.4rem;
+        &:hover {
+          color: salmon;
+          cursor: pointer;
+        }
+      }
+      &__menu {
+        color: #fff;
+      }
+    }
+    &__body {
+      height: 76%;
+      width: 100%;
+
+      padding: 0 2.1rem;
+      @include flex(row, center, center);
+      &__img {
+        height: 28rem;
+      }
+    }
+    &__foot {
+      height: 7%;
+      width: 100%;
+
+      padding: 0 2.1rem;
+      @include flex(row, center, center);
+    }
+  }
+}

@@ -27,3 +27,9 @@
     } //1800
   }
 }
+
+@mixin glass {
+  background-color: #ffffffaf;
+  backdrop-filter: blur(1.4rem);
+  box-shadow: 0 0.1rem 0.3rem #0000001f, 0 0.1rem 0.2rem #0000003d;
+}

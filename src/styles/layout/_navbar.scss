@@ -1,2 +1,11 @@
 @import "../abstracts/variables";
 @import "../abstracts/mixins";
+
+.nav {
+  height: 10vh;
+  padding: 0.7rem;
+  & > ul {
+    @include flex(row, space-evenly, center);
+    width: 100%;
+  }
+}
