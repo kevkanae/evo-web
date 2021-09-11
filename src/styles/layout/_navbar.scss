@@ -1,11 +1,91 @@
 @import "../abstracts/variables";
 @import "../abstracts/mixins";
 
-.nav {
-  height: 10vh;
-  padding: 0.7rem;
-  & > ul {
-    @include flex(row, space-evenly, center);
-    width: 100%;
+.sidebar {
+  margin: 0;
+  padding: 0;
+  // padding: 1rem 0rem;
+  width: 10vw;
+  background-color: #ffffff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+  & > a:first-child {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    position: relative;
+    &:hover {
+      color: white;
+    }
+    &::before {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 3px;
+      background-color: rgb(68, 207, 40);
+      transform: scaleY(0);
+      transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+      background-color 0.1s;
+    }
+    &:hover:not(:active):before {
+      transform: scaleY(1);
+      width: 100%;
+    }
+    // &:active{
+    //   clear: both;
+    //   display: table;
+    // }
   }
 }
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0;
+
+    & > a:first-child {
+      display: none;
+    }
+  }
+
+  .sidebar a {
+    width: 20%;
+    float: left;
+  }
+}
+// @media screen and (max-width: 400px) {
+//   .sidebar a {
+//     text-align: center;
+//     float: none;
+//   }
+// }
+
+// .nav {
+//   height: 10vh;
+//   padding: 0.7rem;
+//   & > ul {
+//     @include flex(row, space-evenly, center);
+//     width: 100%;
+//     list-style: none;
+//     li > a {
+//       text-decoration: none;
+//       font-size: 1.6rem;
+//     }
+//   }
+// }
