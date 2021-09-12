@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import NinetyEight from "./components/1998";
 import MyNavbar from "./components/Navbar";
 import NinetyTwo from "./components/1992";
@@ -12,7 +12,10 @@ function App() {
     <>
       <Router>
         <MyNavbar />
-        <Route path={"/"} exact component={TwentyOne} />
+        <Route path="/" exact>
+          <Redirect to="/2020" />
+        </Route>
+        <Route path={"/2020"} exact component={TwentyOne} />
         <Route path={"/2010"} exact component={Ten} />
         <Route path={"/2003"} exact component={ZeroThree} />
         <Route path={"/1998"} exact component={NinetyEight} />
