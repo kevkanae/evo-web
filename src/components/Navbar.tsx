@@ -5,14 +5,20 @@ const MyNavbar = () => {
   const activeStyle: CSSProperties = {
     color: "white",
     fontWeight: "bolder",
-    backgroundColor: "lightgreen",
+    backgroundImage:
+      "linear-gradient(to left bottom, #30df4e, #00e284, #00e3ae, #00e1cd, #33dee1)",
   };
 
   return (
     <>
       <nav className="sidebar">
-        <NavLink to="/1992">
-          LOGO
+        <NavLink to="/1992" className="logo">
+          <span>R</span>
+          <span>E</span>
+          <span>W</span>
+          <span>I</span>
+          <span>N</span>
+          <span>D</span>
         </NavLink>
         <NavLink activeStyle={activeStyle} to="/1992">
           1992
@@ -30,7 +36,7 @@ const MyNavbar = () => {
           2010
         </NavLink>
 
-        <NavLink activeStyle={activeStyle} to="/">
+        <NavLink activeStyle={activeStyle} to="/2020">
           2021
         </NavLink>
       </nav>
