@@ -1,0 +1,27 @@
+.root92 {
+  margin-left: 140px;
+//   width: calc(100vw - 200px);
+  height: 100vh;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  a {
+    color: blue;
+    font-size: 1.4rem;
+  }
+  .href {
+    font-size: 1.4rem;
+    display: block;
+  }
+
+  @media (max-width:700px) {
+
+     margin-left: 10px;
+  }
+}

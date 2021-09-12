@@ -38,4 +38,7 @@
       @include flex(row, space-evenly, center);
     }
   }
+  @media (max-width: 700px) {
+    margin-left: 10px;
+  }
 }
