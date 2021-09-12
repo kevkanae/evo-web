@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5.1.4",
-    "@types/react-router-dom": "^5.1.8"
+    "@types/react-router-dom": "^5.1.8",
+    "yarn-upgrade-all": "^0.5.4"
   }
 }
