@@ -1,0 +1,82 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+
+.root03 {
+  height: 100vh;
+  width: 90vw;
+  margin-left: 10vw;
+  &__head {
+    height: 7vh;
+    text-align: center;
+    padding: 0.7rem;
+    font-size: 1.4rem;
+  }
+  &__body {
+    height: 93vh;
+    width: 100%;
+
+    padding: 0.7rem;
+    @include flex(column, space-evenly, center);
+    background-color: #fff;
+    &__title {
+      width: 49%;
+      height: 7vh;
+      font-size: 7rem;
+      @include flex(row, space-evenly, center);
+      font-family: "PT Serif", serif;
+    }
+    &__nav {
+      height: 7vh;
+      width: 84%;
+      @include flex(row, space-evenly, center);
+      border-bottom-color: #3366cc;
+      border-bottom-style: solid;
+      &__item {
+        @include flex(column, center, center);
+        color: #3366cc;
+        background-color: #dbdbdb;
+        padding: 0.4rem;
+        height: 100%;
+        width: 12rem;
+      }
+      &__active {
+        @include flex(column, center, center);
+        color: #fff;
+        background-color: #3366cc;
+        padding: 0.4rem;
+        height: 100%;
+        width: 12rem;
+      }
+      &__active,
+      &__item {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    &__content {
+      height: 21vh;
+      width: 63vw;
+
+      padding: 0.4rem;
+      @include flex(row, space-evenly, center);
+      &__left {
+        width: 80%;
+        height: 100%;
+        @include flex(column, center, center);
+        & > input {
+          width: 84%;
+          padding: 0.7rem;
+        }
+        & > div > button {
+          margin-left: 0.7rem;
+        }
+      }
+      &__right {
+        @include flex(column, center, center);
+        width: 20%;
+        height: 100%;
+      }
+    }
+  }
+}
