@@ -58,26 +58,42 @@ const ZeroThree = () => {
             <div className="root03__body__content__right">
               <ul>
                 <li>
-                  <a href="">Advanced Search</a>
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+            rel="noreferrer">Advanced Search</a>
                 </li>
                 <li>
-                  <a href="">Preferences</a>
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+            rel="noreferrer">Preferences</a>
                 </li>
                 <li>
-                  <a href="">Language Tools</a>
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+            rel="noreferrer">Language Tools</a>
                 </li>
               </ul>
             </div>
           </div>
           <h1>
             <span style={{ color: "red" }}>New! </span>
-            Great Research. Small Fee. <a href="">Google Answers</a>
+            Great Research. Small Fee. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+            rel="noreferrer">Google Answers</a>
           </h1>
           <p>
-            <a href="">Advertise with us - </a>
-            <a href="">Search solutions - </a>
-            <a href="">Services and Tools - </a>
-            <a href="">Jobs, Press and Help</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+            rel="noreferrer">Advertise with us - </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+            rel="noreferrer">Search solutions - </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+            rel="noreferrer">Services and Tools - </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+            rel="noreferrer">Jobs, Press and Help</a>
           </p>
         </div>
       </div>

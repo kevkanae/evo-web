@@ -10,8 +10,21 @@ const NinetyEight = () => {
             Welcome to Amazon.com <br /> Books!
             <br />
             <br />
-            <a href="">One Billion Titles!</a> <br />
-            <a href="">Consistently Low Prices!</a>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              target="_blank"
+              rel="noreferrer"
+            >
+              One Billion Titles!
+            </a>{" "}
+            <br />
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Consistently Low Prices!
+            </a>
           </h1>
         </div>
         <div className="root98__body">
@@ -22,7 +35,13 @@ const NinetyEight = () => {
           <div className="root98__body__text">
             <div>
               <h2>
-                <a href="">Spotlight -- August 16th</a>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Spotlight -- August 16th
+                </a>
               </h2>
               <p>
                 These are books we love, offered at Amazon.com low prices. The
@@ -32,17 +51,56 @@ const NinetyEight = () => {
             </div>
             <div>
               <h2>
-                <a href="">One Million Titles</a>
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  One Million Titles
+                </a>
               </h2>
               <p>
-                Search Amazon.com's <a href="">million title catalog</a> by
-                author, subject, title, keyword, and more... Or take a look at
-                the <a href="">books we recommend</a> in over 20 categories...
-                Check out our <a href="">customer reviews</a> and the{" "}
-                <a href="">
+                Search Amazon.com's{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  million title catalog
+                </a>{" "}
+                by author, subject, title, keyword, and more... Or take a look
+                at the{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  books we recommend
+                </a>{" "}
+                in over 20 categories... Check out our{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  customer reviews
+                </a>{" "}
+                and the{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   award winners from Hugo and Nebula to the Pulitzer and
-                  Nobel... and <a href="">bestsellers</a> are 30% off the
-                  publishers list...
+                  Nobel... and{" "}
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    bestsellers
+                  </a>{" "}
+                  are 30% off the publishers list...
                 </a>
               </p>
             </div>
